@@ -2,6 +2,8 @@
 
 **You are free to use and distribute this pack (non-commercially) without any credit to the original author of the shader (*It would be appreciated though :)*). If used commercially please include some form of credit containing "Ancientkingg"**
 
+Fancy Pants is a 1.17 vanilla core shader that allows datapack developers to add custom armor to the game with custom coloured leather armor.
+
 **<u>Annotation</u>**
 
 Any pixel coordinates prefixed with `~` will be relative to the armor texture itself and will not be absolute. For example `~(0,0)` in absolute coordinates could refer to `(64,0)`, `(128,0)` etc. Otherwise, assume the pixel coordinate is absolute.
@@ -11,6 +13,8 @@ Any pixel coordinates prefixed with `~` will be relative to the armor texture it
 ****** This is a boolean and only has two states: on (`> 0`) and off (`0`).
 
 ###### <u>Requirements</u>
+
+- `leather_layer_1_overlay` and `leather_layer_2_overlay` must at all times remain completely transparent.
 
 - Fancy Pants supports different texture resolution, but it must be specified in the shader. To change the texture resolution from the default `16` to something else, go to `assets/minecraft/shaders/core/rendertype_armor_cutout_no_cull.fsh`; go to line 3 and change the value of `TEX_RES`. The texture resolution is equal to the width of a **single** armor texture divided by 4. It is not possible to set different texture resolutions per armor texture, but you can however just upscale the textures in the png.
 

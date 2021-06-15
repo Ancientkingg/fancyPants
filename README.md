@@ -54,4 +54,4 @@ If you have any questions feel free to ping me in any discord or message me `Anc
 
 ![Images](https://media.discordapp.net/attachments/157097006500806656/853186114017558558/unknown.png)
 ### Tutorial Video by VelVoxelRaptor
-![Tutorial Video by VelVoxelRaptor](https://cdn.discordapp.com/attachments/717702194555650118/854378522180714566/IMG_9588.mov)
+![Tutorial Video by VelVoxelRaptor](https://github.com/Ancientkingg/fancyPants/blob/master/TutorialVideo.mov)

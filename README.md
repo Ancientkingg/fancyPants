@@ -8,9 +8,9 @@ Fancy Pants is a 1.17 vanilla core shader that allows datapack developers to add
 
 Any pixel coordinates prefixed with `~` will be relative to the armor texture itself and will not be absolute. For example `~(0,0)` in absolute coordinates could refer to `(64,0)`, `(128,0)` etc. Otherwise, assume the pixel coordinate is absolute.
 
-***** The default speed is (roughly) 24 seconds per frame. So to get 1 frame per second the speed must be set to 24.
+**\*** The default speed is (roughly) 24 seconds per frame. So to get 1 frame per second the speed must be set to 24.
 
-****** This is a boolean and only has two states: on (`> 0`) and off (`0`).
+**\*\*** This is a boolean and only has two states: on (`> 0`) and off (`0`).
 
 ###### <u>Requirements</u>
 

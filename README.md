@@ -36,13 +36,13 @@ You are able to interact with the shader through the `leather_layer_1.png` and `
 
 The shader supports 2 formats: non-animated and animated.
 
-### non-animated
+### Non-animated
 
 Add an armor texture to the right in `leather_layer_1.png` and/or `leather_layer_2.png`, add a custom color with `255` alpha at `~(0,0)` and you're done. To access the newly added custom armor texture, you simply equip the corresponding colored leather armor with the color.                                                       (Formula for that is `r << 16 + g << 8 + b`)
 
-### animated
+### Animated
 
-Fancy Pants supports animated textures (*wow no-one expected that with the heading name*). To add an animated texture, simply add frames below the corresponding armor texture (See `leather_layer_1.png`). Secondly, it is required to add some information for the shader at `~(1,0)`: `rgb(amount of frames, speed*, interpolation**)`.
+Fancy Pants supports animated textures (*wow no-one expected that with the heading name*). To add an animated texture, simply add frames below the corresponding armor texture (See `leather_layer_1.png`). Secondly, it is required to add some information for the shader at `~(0,1)`: `rgb(amount of frames, speed*, interpolation**)`.
 
 ### Emissivity map
 
@@ -54,4 +54,4 @@ If you have any questions feel free to ping me in any discord or message me `Anc
 
 ![Images](https://media.discordapp.net/attachments/157097006500806656/853186114017558558/unknown.png)
 ### Tutorial Video by VelVoxelRaptor
-![Tutorial Video by VelVoxelRaptor](https://github.com/Ancientkingg/fancyPants/blob/master/TutorialVideo.gif)
+![Tutorial Video by VelVoxelRaptor](https://user-images.githubusercontent.com/27242001/141520994-5b5e99e7-f0ac-4cb4-9a01-faaf750fa569.gif)

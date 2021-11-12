@@ -41,7 +41,6 @@ void main() {
     float interpolClock = 0;
     vec2 nextFrame = vec2(0);
     float h_offset = 1.0 / armorAmount;
-    vec4 leatherCheck = texture(Sampler0, vec2(0.0, 1.0 / atlasSize.y));
     // texture properties contains extra info about the armor texture, such as to enable shading
     vec4 textureProperties = vec4(0);
     vec4 customColor = vec4(0);
@@ -100,10 +99,8 @@ void main() {
     vec4 color;
     if (coords.x < (1 / armorAmount)){
         color = armor * vertexColor * ColorModulator;
-    }else if(leatherCheck == vec4(1)){
-        color = armor * vtc * ColorModulator;
     }else{
-        color = armor * vertexColor * ColorModulator;
+        color = armor * vtc * ColorModulator;
     }
     if (color.a < 0.1) discard;
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);

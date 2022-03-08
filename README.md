@@ -28,7 +28,9 @@ Any pixel coordinates prefixed with `~` will be relative to the armor texture it
 
 - If partial emissivity is enabled the armor texture to the right will be treated as an emissivity map, where the alpha of the pixel will be treated as the amount of emissivity.
 
-  
+## **Important**
+
+Core shaders (what this pack uses) are not supported by alternative rendering engines, such as Iris and Optifine. They will be incompatible and display wrong and there is nothing I can do and nothing the creators of Optifine and Iris can do to fix it.
 
 ## How to use
 

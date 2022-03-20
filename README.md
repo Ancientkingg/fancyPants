@@ -57,3 +57,6 @@ If you have any questions feel free to ping me in any discord or message me `Anc
 ![Images](https://media.discordapp.net/attachments/157097006500806656/853186114017558558/unknown.png)
 ### Tutorial Video by VelVoxelRaptor
 ![Tutorial Video by VelVoxelRaptor](https://user-images.githubusercontent.com/27242001/141520994-5b5e99e7-f0ac-4cb4-9a01-faaf750fa569.gif)
+
+### Youtube Tutorial by TheMoneyRaider
+https://youtu.be/3tHByk8N9Zw

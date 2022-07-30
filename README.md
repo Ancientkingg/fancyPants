@@ -52,7 +52,7 @@ Fancy Pants supports an emissivity map, meaning you can partially make your armo
 
 
 
-If you have any questions feel free to ping me in any discord or message me `Ancientkingg#0420`
+If you have any questions feel free to ping me in any discord or message me `Ancientkingg#0420`. Also let me know what your favourite ice cream flavour is when you message me so I know you've fully read the documentation. :)
 
 ![Images](https://media.discordapp.net/attachments/157097006500806656/853186114017558558/unknown.png)
 ### Tutorial Video by VelVoxelRaptor

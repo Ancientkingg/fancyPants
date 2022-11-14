@@ -18,13 +18,13 @@ Any pixel coordinates prefixed with `~` will be relative to the armor texture it
 
 - Fancy Pants supports different texture resolution, but it must be specified in the shader. To change the texture resolution from the default `16` to something else, go to `assets/minecraft/shaders/core/rendertype_armor_cutout_no_cull.fsh`; go to line 3 and change the value of `TEX_RES`. The texture resolution is equal to the width of a **single** armor texture divided by 4. It is not possible to set different texture resolutions per armor texture, but you can however just upscale the textures in the png.
 
-- The pixel located at `(0, 1)` in `leather_layer_1.png` and  `leather_layer_2.png` must at all times be white (`rgba(255,255,255,255)`).
+- The pixel located at `(1, 0)` in `leather_layer_1.png` and  `leather_layer_2.png` must at all times be white (`rgba(255,255,255,255)`).
 
 - The pixel located at `~(0,0)` will be the color assigned to the armor texture. If two armor textures have the same color, only the most left one will be recognized.
 
-- An animated armor texture requires a marker pixel at `~(0,1)` of the armor texture.  This pixel contains `rgb(amount of frames, speed*, interpolation**)`.See `leather_layer_1.png` in `assets/minecraft/textures/models/armor/`.
+- An animated armor texture requires a marker pixel at `~(1,0)` of the armor texture.  This pixel contains `rgb(amount of frames, speed*, interpolation**)`.See `leather_layer_1.png` in `assets/minecraft/textures/models/armor/`.
 
-- The pixel located at `~(0,2)` contains information about extra texture properties. Currently this shader supports: toggling color tinting (by default disabled) and emissivity (both partial and full). `rgb(emissivity, tint, N/A)`. Emissivity** can be set to 1 to allow for partial emissivity and `> 1` to enable full emissivity.
+- The pixel located at `~(2,0)` contains information about extra texture properties. Currently this shader supports: toggling color tinting (by default disabled) and emissivity (both partial and full). `rgb(emissivity, tint, N/A)`. Emissivity** can be set to 1 to allow for partial emissivity and `> 1` to enable full emissivity.
 
 - If partial emissivity is enabled the armor texture to the right will be treated as an emissivity map, where the alpha of the pixel will be treated as the amount of emissivity.
 
@@ -44,7 +44,7 @@ Add an armor texture to the right in `leather_layer_1.png` and/or `leather_layer
 
 ### Animated
 
-Fancy Pants supports animated textures (*wow no-one expected that with the heading name*). To add an animated texture, simply add frames below the corresponding armor texture (See `leather_layer_1.png`). Secondly, it is required to add some information for the shader at `~(0,1)`: `rgb(amount of frames, speed*, interpolation**)`.
+Fancy Pants supports animated textures (*wow no-one expected that with the heading name*). To add an animated texture, simply add frames below the corresponding armor texture (See `leather_layer_1.png`). Secondly, it is required to add some information for the shader at `~(1,0)`: `rgb(amount of frames, speed*, interpolation**)`.
 
 ### Emissivity map
 

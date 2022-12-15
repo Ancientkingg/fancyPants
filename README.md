@@ -1,7 +1,5 @@
 # <u>Fancy Pants</u>
 
-**You are free to use and distribute this pack (non-commercially) without any credit to the original author of the shader (*It would be appreciated though :)*). If used commercially please include some form of credit containing "Ancientkingg"**
-
 Fancy Pants is a 1.17 vanilla core shader that allows datapack developers to add custom armor to the game with custom coloured leather armor.
 
 **<u>Annotation</u>**

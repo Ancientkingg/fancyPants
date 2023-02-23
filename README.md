@@ -16,7 +16,7 @@ Any pixel coordinates prefixed with `~` will be relative to the armor texture it
 
 - Fancy Pants supports different texture resolution, but it must be specified in the shader. To change the texture resolution from the default `16` to something else, go to `assets/minecraft/shaders/core/rendertype_armor_cutout_no_cull.fsh`; go to line 3 and change the value of `TEX_RES`. The texture resolution is equal to the width of a **single** armor texture divided by 4. It is not possible to set different texture resolutions per armor texture, but you can however just upscale the textures in the png.
 
-- The pixel located at `(1, 0)` in `leather_layer_1.png` and  `leather_layer_2.png` must at all times be white (`rgba(255,255,255,255)`).
+- The pixel located at `(0, 1)` in `leather_layer_1.png` and  `leather_layer_2.png` must at all times be white (`rgba(255,255,255,255)`).
 
 - The pixel located at `~(0,0)` will be the color assigned to the armor texture. If two armor textures have the same color, only the most left one will be recognized.
 

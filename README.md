@@ -2,6 +2,9 @@
 
 Fancy Pants is a 1.17 vanilla core shader that allows datapack developers to add custom armor to the game with custom coloured leather armor.
 
+If you want a more optimized version of fancy pants that supports far more armor textures use [lessfancypants](https://github.com/Godlander/lessfancypants). 
+<br>*Disclaimer: It does not support custom assignable colors and it does not support automatically animating armor.*
+
 **<u>Annotation</u>**
 
 Any pixel coordinates prefixed with `~` will be relative to the armor texture itself and will not be absolute. For example `~(0,0)` in absolute coordinates could refer to `(64,0)`, `(128,0)` etc. Otherwise, assume the pixel coordinate is absolute.
